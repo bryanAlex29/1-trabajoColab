@@ -1,0 +1,56 @@
+            body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffbea;
+            color: #1a1a1a;
+        }
+        header {
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1em 2em;
+            border-bottom: 1px solid #ccc;
+        }
+        header img {
+            height: 40px;}
+        
+        .menu {
+            font-weight: bold;
+        }
+        .btn-acceso {
+            background-color: #ffe100;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .encabezado {
+            padding: 3em 2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .encabezado-text {
+            max-width: 50%;
+        }
+        .encabezado h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.2em;
+        }
+        .visin-mision {
+            background-color: #f7f8fa;
+            padding: 2em;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .visin-mision div {
+            width: 30%;
+        }
+        .visin-mision h2 {
+            color: #002f6c;
+            margin-bottom: 0.5em;
+        }
