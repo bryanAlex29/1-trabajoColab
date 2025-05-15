@@ -1,2 +1,180 @@
+<<<<<<< HEAD
 
     
+=======
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background-color: #ffcc00;
+  padding: 15px 0;
+}
+
+.logo {
+  height: 40px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://www.pichincha.com/content/dam/pichincha-ec/imagenes/banner-home.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 12px 25px;
+  background-color: #003366;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Productos */
+.productos {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+.productos h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+/* Beneficios */
+.beneficios {
+  padding: 60px 0;
+  background-color: #eaeaea;
+}
+
+.beneficios h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.beneficios ul {
+  list-style: none;
+  max-width: 600px;
+  margin: auto;
+}
+
+.beneficios ul li {
+  margin: 15px 0;
+  font-size: 1.1rem;
+}
+
+/* Contacto */
+.contacto {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.contacto h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #003366;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+>>>>>>> 85a1513b6b3e664d6fd9b2153c12b293794500cd
