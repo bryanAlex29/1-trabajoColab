@@ -1,0 +1,19 @@
+
+/* Estilo para la imagen que este en la parte superior izquierda */
+img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*  ubicalo debajo de la imagen */  
+#contenedor {
+    margin-top: 120px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+
